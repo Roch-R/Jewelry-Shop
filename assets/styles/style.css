@@ -1,0 +1,102 @@
+@import "about.css";
+@import "button.css";
+@import "card.css";
+@import "contact.css";
+@import "navbar.css";
+@import "hero-banner.css";
+@import "order.css";
+@import "product.css";
+@import "service.css";
+@import "thankyou.css";
+@import "footer.css";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+
+}
+
+html,
+body {
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffafc;
+}
+
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fefefe;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+#submit {
+  max-width: 700px;
+  margin: 100px auto;
+  padding: 60px 40px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+#submit h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #b59d86;
+}
+
+#submit p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.primary-button {
+  padding: 12px 28px;
+  font-size: 1rem;
+  background-color: #b59d86;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.primary-button:hover {
+  background-color: #a07e65;
+}
+
+
+@media (max-width: 600px) {
+  #submit {
+    padding: 40px 20px;
+  }
+
+  #submit h1 {
+    font-size: 2rem;
+  }
+}
+
+
+
+

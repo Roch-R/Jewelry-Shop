@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order | Elegance Jewelry</title>
+  <link rel="stylesheet" href="../assets/styles/style.css" />
+  <link rel="stylesheet" href="../assets/styles/order.css" />
+</head>
+
+<body>
+
+  <header id="header">
+    <nav class="navbar container">
+      <div class="logo">Elegance Jewelry</div>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/product.html">Product</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="order-section">
+    <h1>Place Your Order</h1>
+
+    <form action="submit.html" method="POST" class="order-form">
+
+      <!-- Hidden Product Name (preset for "Product 1") -->
+      <input type="hidden" name="product_name" value="Product 1">
+
+      <label for="size">Select Size:</label>
+      <select name="size" id="size" required>
+        <option value="">-- Choose Size --</option>
+        <option value="S">Small</option>
+        <option value="M">Medium</option>
+        <option value="L">Large</option>
+      </select>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" name="quantity" id="quantity" value="1" min="1" required>
+
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="address">Shipping Address:</label>
+      <textarea id="address" name="address" rows="4" required></textarea>
+
+      <button type="submit" class="order-btn">Submit Order</button>
+    </form>
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <p>Privacy Policy · Legal · © 2025 Elegance Jewelry. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

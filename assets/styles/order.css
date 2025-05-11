@@ -1,0 +1,56 @@
+.order-section {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Georgia', serif;
+  text-align: center;
+}
+
+.order-section h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  color: #666;
+}
+
+.order-form {
+  text-align: left;
+}
+
+.order-form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fafafa;
+  font-size: 1rem;
+}
+
+.order-btn {
+  display: block;
+  margin: 2rem auto 0;
+  padding: 0.8rem 1.8rem;
+  font-size: 1rem;
+  background-color: #666;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+  background-color: #666;
+}
